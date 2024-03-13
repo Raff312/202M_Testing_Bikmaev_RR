@@ -1,0 +1,450 @@
+{
+  "id": "31a55f67-7580-4c84-b468-e4e96aa32cfc",
+  "version": "2.0",
+  "name": "Task03",
+  "url": "https://forms.truvisibility.com/#/forms",
+  "tests": [{
+    "id": "c9fb0132-b3d4-4a08-ab9c-de69dd4c62b7",
+    "name": "1. Create Form",
+    "commands": [{
+      "id": "1e095fbe-1b32-4775-95a5-d5a522b07cf2",
+      "comment": "",
+      "command": "open",
+      "target": "https://forms.truvisibility.com/#/forms",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e26e1b8-339b-4d04-b989-16e71ac2a5ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-md-inline-flex",
+      "targets": [
+        ["css=.d-md-inline-flex", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-forms/div/div/div[2]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,' Add Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de1d765-e927-4dd2-bec1-e160f4976df1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-wizard/div[2]/div[2]/div/app-form-name-step/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "0826d867-9868-4571-9309-353d6e368e5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=next-btn",
+      "targets": [
+        ["id=next-btn", "id"],
+        ["css=#next-btn", "css:finder"],
+        ["xpath=//button[@id='next-btn']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-wizard/div[2]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b946c92e-2b58-4cc9-859b-b7798677d264",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=next-btn",
+      "targets": [
+        ["id=next-btn", "id"],
+        ["css=#next-btn", "css:finder"],
+        ["xpath=//button[@id='next-btn']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-wizard/div[2]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59773745-f750-4bdf-b38f-ef0464d033b1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=next-btn",
+      "targets": [
+        ["id=next-btn", "id"],
+        ["css=#next-btn", "css:finder"],
+        ["xpath=//button[@id='next-btn']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-wizard/div[2]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85926866-9504-47a5-b5e6-c03aa7fb83bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.autoresponder-item:nth-child(1) .form-control",
+      "targets": [
+        ["css=.autoresponder-item:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-wizard/div[2]/div[2]/div/app-form-autoresponders-step/div[2]/div[2]/div/div[2]/app-toggle-switch/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1c686a1-625e-4e9c-ac2f-a9e5e4d4c1aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.autoresponder-item:nth-child(2)",
+      "targets": [
+        ["css=.autoresponder-item:nth-child(2)", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-wizard/div[2]/div[2]/div/app-form-autoresponders-step/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b23d20f8-e407-4a71-9783-f1890fdb4654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-wizard/div[2]/div[2]/div/app-form-autoresponders-step/div[2]/div[2]/div[2]/div[2]/app-toggle-switch/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/app-toggle-switch/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae4e264-aafe-4123-a0fd-6cab7254f482",
+      "comment": "",
+      "command": "click",
+      "target": "css=#next-btn > .icon",
+      "targets": [
+        ["css=#next-btn > .icon", "css:finder"],
+        ["xpath=//button[@id='next-btn']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3955b659-4be8-449c-b49f-574cbb373094",
+    "name": "2. Create and edit field",
+    "commands": [{
+      "id": "645a71f2-b65e-458b-a371-7d30dae44c25",
+      "comment": "",
+      "command": "open",
+      "target": "https://forms.truvisibility.com/#/forms",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66bdcddf-0a09-4e06-a3a8-bafd5b6cc796",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1660x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78e86ef2-c38d-4aaa-a3e1-18b855920695",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(1) .form-name",
+      "targets": [
+        ["css=.clickable:nth-child(1) .form-name", "css:finder"],
+        ["xpath=//table[@id='elem-brbe4']/tbody/tr/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e1f346-1119-4086-934e-c37a4ab84066",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20e16e07-8735-41f9-8f02-d45765067150",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(@class, 'add-element-action')]",
+      "targets": [
+        ["css=.icon-text-field", "css:finder"],
+        ["xpath=//div[@id='elem-d15p1']/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "840fb173-af84-40af-a5f2-6f525867b0c9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=top",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3620602-0363-4280-9969-df100cd8b6fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.element-menu .element:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22ebbf03-53fa-4f0f-8cff-e74b127044da",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da54bf22-41b8-4ba8-bc3c-4b0233be25ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item.action-btn.edit",
+      "targets": [
+        ["id=field-source", "id"],
+        ["css=#field-source", "css:finder"],
+        ["xpath=//input[@id='field-source']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div[2]/app-text-field-settings/div[2]/div/form/div[2]/app-field-picker/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "609390df-6665-4664-b478-e10dce9957bc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=top",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1180909b-df9d-4c25-ace2-36e8904e5919",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-source",
+      "targets": [
+        ["id=field-source", "id"],
+        ["css=#field-source", "css:finder"],
+        ["xpath=//input[@id='field-source']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div[2]/app-text-field-settings/div[2]/div/form/div[2]/app-field-picker/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "@first name"
+    }, {
+      "id": "4fe44841-58b1-4797-9dd6-2c35dcf05e3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.round-btn > .icon",
+      "targets": [
+        ["css=.round-btn > .icon", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//app-element-settings/div[2]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b9376467-f7f3-44cb-b7bc-44994f0a38e7",
+    "name": "3. Copy field",
+    "commands": [{
+      "id": "ead137fb-07eb-4ba8-8a31-c77c5a2bf62d",
+      "comment": "",
+      "command": "open",
+      "target": "https://forms.truvisibility.com/#/forms",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17e0f4ea-6ab6-4747-972e-40940cee1a56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1660x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "212c2542-011d-42ac-82f2-cf2349a3ff31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(1) .form-name",
+      "targets": [
+        ["css=.clickable:nth-child(1) .form-name", "css:finder"],
+        ["xpath=//table[@id='elem-brbe4']/tbody/tr/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23f09ac-cc05-4cdb-b2fd-5aa5d43f203f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fcc0365-ae02-4e40-9006-22882cba6e9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=[data-element='field']",
+      "targets": [
+        ["id=field-source", "id"],
+        ["css=#field-source", "css:finder"],
+        ["xpath=//input[@id='field-source']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div[2]/app-text-field-settings/div[2]/div/form/div[2]/app-field-picker/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02952dfe-9da0-4ecd-bd31-a1603950e7b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item.action-btn.duplicate",
+      "targets": [
+        ["id=field-source", "id"],
+        ["css=#field-source", "css:finder"],
+        ["xpath=//input[@id='field-source']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div[2]/app-text-field-settings/div[2]/div/form/div[2]/app-field-picker/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "45b4c53e-99e4-4420-ae39-98eaa7a44a80",
+    "name": "4. Edit duplicated field",
+    "commands": [{
+      "id": "e6c5611d-1339-48a9-b3f6-46f8c1396b8a",
+      "comment": "",
+      "command": "open",
+      "target": "https://forms.truvisibility.com/#/forms",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae3942ed-402b-4156-b546-0e78206fbcfc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1660x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9ddc235-8a56-40ae-8520-29fa2b157436",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(1) .form-name",
+      "targets": [
+        ["css=.clickable:nth-child(1) .form-name", "css:finder"],
+        ["xpath=//table[@id='elem-brbe4']/tbody/tr/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1554c8-3c4b-4f94-ada7-35536403815d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a313d36-4e4f-4128-b5b3-7b7f11cbff36",
+      "comment": "",
+      "command": "click",
+      "target": "css=[data-element='field']:nth-child(2)",
+      "targets": [
+        ["id=field-source", "id"],
+        ["css=#field-source", "css:finder"],
+        ["xpath=//input[@id='field-source']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div[2]/app-text-field-settings/div[2]/div/form/div[2]/app-field-picker/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13c97239-c4ee-4d34-8780-46877475da03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item.action-btn.edit",
+      "targets": [
+        ["id=field-source", "id"],
+        ["css=#field-source", "css:finder"],
+        ["xpath=//input[@id='field-source']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div[2]/app-text-field-settings/div[2]/div/form/div[2]/app-field-picker/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb136283-99f7-4866-82a3-934c59872ece",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=top",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12aa3f12-2e8e-4708-8629-6945cd3d68a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-source",
+      "targets": [
+        ["id=field-source", "id"],
+        ["css=#field-source", "css:finder"],
+        ["xpath=//input[@id='field-source']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/app-form-builder/div[2]/div/app-form-editor/app-element-settings/div[2]/div[2]/app-text-field-settings/div[2]/div/form/div[2]/app-field-picker/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "@First Name"
+    }, {
+      "id": "37f1ce3d-b262-411d-a69f-fef4c412bfec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ok-btn-container .btn-success",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9879a1aa-a99e-40fe-b584-9ac29e3091c3",
+      "comment": "",
+      "command": "assertNotSelectedValue",
+      "target": "css=.field-picker__selected-tile",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "de4ef227-3538-4968-b522-14079524f4b1",
+    "name": "5. Publish form",
+    "commands": [{
+      "id": "5abbb4d7-5653-4ab9-a1ad-cd99afd8382d",
+      "comment": "",
+      "command": "open",
+      "target": "https://forms.truvisibility.com/#/forms",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66617f29-f99b-4bb9-b0ee-907af2d73186",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1660x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "799229ec-5297-48f7-8d54-419d53451019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clickable:nth-child(1) .form-name",
+      "targets": [
+        ["css=.clickable:nth-child(1) .form-name", "css:finder"],
+        ["xpath=//table[@id='elem-brbe4']/tbody/tr/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6844d14-aa01-475c-8b30-812787b27293",
+      "comment": "",
+      "command": "click",
+      "target": "css=.actions.d-print-none.d-none.d-lg-flex button.btn-publish",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c05f8f47-5487-4d53-8f4f-6ec9e7b64033",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form-publish-dialog .btn-primary",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0cd36c1b-99b6-4544-9cf7-922e622bc41e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9fb0132-b3d4-4a08-ab9c-de69dd4c62b7"]
+  }],
+  "urls": ["https://forms.truvisibility.com/#/forms"],
+  "plugins": []
+}
